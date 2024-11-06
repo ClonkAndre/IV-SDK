@@ -1,12 +1,21 @@
-<p align="left"><img src="https://i.imgur.com/KpjEVRe.png"></p>
+<p align="center">
+  <img width="210" height="200" src="https://i.imgur.com/KpjEVRe.png">
+</p>
 
-# iv-sdk
-"SDK" for creating GTA IV .asi plugins
+#
+IV-SDK is a powerful SDK which allows you to write ASI scripts for GTA IV.  
+It currently supports version 1070 and 1080 (EFIGS) of GTA IV.
 
-Supports 1.0.7.0 and 1.0.8.0 (EFIGS only)
+## Documentation
+Not created yet.  
 
-The majority of the project has been created for 1.0.8.0 and then had addresses ported to 1.0.7.0 so if there's any incompatibility on that version, feel free to report it.
+**Very** useful pages for looking up native functions
+- https://pastebin.com/n7CAnpZB
+- https://gtamods.com/wiki/List_of_native_functions_(GTA_IV)
 
-There are no plans to support any other versions because of major differences in classes and functions.
+## Requirements
+- Visual C++ 2005 Redistributable x86 which should already be installed on your PC if you've downgraded your game with the [GTA IV Downgrader](https://gtaforums.com/topic/976691-gta-iv-downgrader).
+- DirectX June 2010 SDK which should also already be installed on your PC if you've downgraded your game with the [GTA IV Downgrader](https://gtaforums.com/topic/976691-gta-iv-downgrader).
 
-[Discord server](https://discord.gg/SbXFPDf4zU)
+## How to Contribute
+Feel free to fork and contribute to this project with a **[Pull Request](https://github.com/ClonkAndre/IV-SDK/pulls)**.

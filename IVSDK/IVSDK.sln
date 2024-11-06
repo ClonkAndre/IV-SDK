@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IVSDK", "IVSDK\IVSDK.vcxproj", "{2E63C6F7-6698-4746-B806-54AD8D3C7B67}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DebugTest", "DebugTest\DebugTest.vcxproj", "{F387E75B-3DD2-4F9C-A848-A4AE51CA09CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E63C6F7-6698-4746-B806-54AD8D3C7B67}.Debug|x86.ActiveCfg = Debug|Win32
+		{2E63C6F7-6698-4746-B806-54AD8D3C7B67}.Debug|x86.Build.0 = Debug|Win32
+		{2E63C6F7-6698-4746-B806-54AD8D3C7B67}.Release|x86.ActiveCfg = Release|Win32
+		{2E63C6F7-6698-4746-B806-54AD8D3C7B67}.Release|x86.Build.0 = Release|Win32
+		{F387E75B-3DD2-4F9C-A848-A4AE51CA09CF}.Debug|x86.ActiveCfg = Debug|Win32
+		{F387E75B-3DD2-4F9C-A848-A4AE51CA09CF}.Debug|x86.Build.0 = Debug|Win32
+		{F387E75B-3DD2-4F9C-A848-A4AE51CA09CF}.Release|x86.ActiveCfg = Release|Win32
+		{F387E75B-3DD2-4F9C-A848-A4AE51CA09CF}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A06B755-A1A3-426D-9525-21E98368696C}
+	EndGlobalSection
+EndGlobal

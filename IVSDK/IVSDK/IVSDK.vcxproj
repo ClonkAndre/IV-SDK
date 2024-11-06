@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="IVSDK.cpp" />
+    <ClCompile Include="patterns\Hooking.Patterns.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="audEngine.h" />
+    <ClInclude Include="audRadioAudioEntity.h" />
+    <ClInclude Include="CAchievements.h" />
+    <ClInclude Include="CAERadioTrackManager.h" />
+    <ClInclude Include="CAnimManager.h" />
+    <ClInclude Include="CAudioZones.h" />
+    <ClInclude Include="CBaseDC.h" />
+    <ClInclude Include="CBuilding.h" />
+    <ClInclude Include="CCam.h" />
+    <ClInclude Include="CCamera.h" />
+    <ClInclude Include="CCheat.h" />
+    <ClInclude Include="CClock.h" />
+    <ClInclude Include="CCustomShaderEffectBase.h" />
+    <ClInclude Include="CCutsceneMgr.h" />
+    <ClInclude Include="CDraw.h" />
+    <ClInclude Include="CDrawCurvedWindowDC.h" />
+    <ClInclude Include="CDrawRadioHudTextDC.h" />
+    <ClInclude Include="CDrawRectDC.h" />
+    <ClInclude Include="CDrawSpriteDC.h" />
+    <ClInclude Include="CDrawSpriteUVDC.h" />
+    <ClInclude Include="CdStream.h" />
+    <ClInclude Include="CDynamicEntity.h" />
+    <ClInclude Include="CEntity.h" />
+    <ClInclude Include="CExplosion.h" />
+    <ClInclude Include="CFileLoader.h" />
+    <ClInclude Include="CFileMgr.h" />
+    <ClInclude Include="CFont.h" />
+    <ClInclude Include="CFrontEnd.h" />
+    <ClInclude Include="CGame.h" />
+    <ClInclude Include="CGameConfigReader.h" />
+    <ClInclude Include="CGameLogic.h" />
+    <ClInclude Include="CGangs.h" />
+    <ClInclude Include="CGarage.h" />
+    <ClInclude Include="CGenericGameStorage.h" />
+    <ClInclude Include="cHandlingDataMgr.h" />
+    <ClInclude Include="CHudColours.h" />
+    <ClInclude Include="CInteriorInst.h" />
+    <ClInclude Include="CIplStore.h" />
+    <ClInclude Include="CMatrix.h" />
+    <ClInclude Include="CMenuManager.h" />
+    <ClInclude Include="CModelInfo.h" />
+    <ClInclude Include="CNetwork.h" />
+    <ClInclude Include="CObject.h" />
+    <ClInclude Include="CPad.h" />
+    <ClInclude Include="CPed.h" />
+    <ClInclude Include="CPedFactoryNY.h" />
+    <ClInclude Include="CPedType.h" />
+    <ClInclude Include="CPhysical.h" />
+    <ClInclude Include="CPickups.h" />
+    <ClInclude Include="CPlayerInfo.h" />
+    <ClInclude Include="CPool.h" />
+    <ClInclude Include="CPools.h" />
+    <ClInclude Include="CPopulation.h" />
+    <ClInclude Include="CProjectileInfo.h" />
+    <ClInclude Include="CQuadTreeNode.h" />
+    <ClInclude Include="CQuaternion.h" />
+    <ClInclude Include="CRadar.h" />
+    <ClInclude Include="CRect.h" />
+    <ClInclude Include="CRenderPhase.h" />
+    <ClInclude Include="CReplay.h" />
+    <ClInclude Include="CRestart.h" />
+    <ClInclude Include="CRGBA.h" />
+    <ClInclude Include="CShaderLib.h" />
+    <ClInclude Include="CShadows.h" />
+    <ClInclude Include="CSimpleTransform.h" />
+    <ClInclude Include="CSprite2d.h" />
+    <ClInclude Include="CStats.h" />
+    <ClInclude Include="CStore.h" />
+    <ClInclude Include="CStreaming.h" />
+    <ClInclude Include="CStuntJumpManager.h" />
+    <ClInclude Include="CTask.h" />
+    <ClInclude Include="CTaskComplexClimbLadder.h" />
+    <ClInclude Include="CTaskComplexDie.h" />
+    <ClInclude Include="CTaskComplexInWater.h" />
+    <ClInclude Include="CTaskComplexMobileMakeCall.h" />
+    <ClInclude Include="CTaskComplexNewGetInVehicle.h" />
+    <ClInclude Include="CTaskComplexNM.h" />
+    <ClInclude Include="CTaskComplexPlayerOnFoot.h" />
+    <ClInclude Include="CTaskComplexPlayerSettingsTask.h" />
+    <ClInclude Include="CTaskComplexWander.h" />
+    <ClInclude Include="CTaskSimpleNMHighFall.h" />
+    <ClInclude Include="CTaskSimpleNMJumpRollFromRoadVehicle.h" />
+    <ClInclude Include="CTaskSimpleSidewaysDive.h" />
+    <ClInclude Include="CText.h" />
+    <ClInclude Include="CTheScripts.h" />
+    <ClInclude Include="CTheZones.h" />
+    <ClInclude Include="CTimeCycle.h" />
+    <ClInclude Include="CTimer.h" />
+    <ClInclude Include="CTxdStore.h" />
+    <ClInclude Include="CVector.h" />
+    <ClInclude Include="CVector2D.h" />
+    <ClInclude Include="CVehicle.h" />
+    <ClInclude Include="CVehicleFactoryNY.h" />
+    <ClInclude Include="CVisibilityPlugins.h" />
+    <ClInclude Include="CWanted.h" />
+    <ClInclude Include="CWeaponInfo.h" />
+    <ClInclude Include="CWeather.h" />
+    <ClInclude Include="CWorld.h" />
+    <ClInclude Include="C_PcSave.h" />
+    <ClInclude Include="eHudColour.h" />
+    <ClInclude Include="ePadControls.h" />
+    <ClInclude Include="eRadarSprite.h" />
+    <ClInclude Include="eVehiclePart.h" />
+    <ClInclude Include="fiDevice.h" />
+    <ClInclude Include="fiPackfile.h" />
+    <ClInclude Include="grcTexture.h" />
+    <ClInclude Include="grcTextureFactory.h" />
+    <ClInclude Include="Hooks.h" />
+    <ClInclude Include="injector\assembly.hpp" />
+    <ClInclude Include="injector\calling.hpp" />
+    <ClInclude Include="injector\gvm\gvm.hpp" />
+    <ClInclude Include="injector\gvm\translator.hpp" />
+    <ClInclude Include="injector\hooking.hpp" />
+    <ClInclude Include="injector\injector.hpp" />
+    <ClInclude Include="injector\utility.hpp" />
+    <ClInclude Include="IVSDK.h" />
+    <ClInclude Include="AddressSetter.h" />
+    <ClInclude Include="patterns\Hooking.Patterns.h" />
+    <ClInclude Include="pgDictionary.h" />
+    <ClInclude Include="phBound.h" />
+    <ClInclude Include="phConstrainedCollider.h" />
+    <ClInclude Include="phInstGta.h" />
+    <ClInclude Include="rage.h" />
+    <ClInclude Include="Scripting\BaseScripting.h" />
+    <ClInclude Include="Scripting\NativeHashes.h" />
+    <ClInclude Include="Scripting\NativeInvoke.h" />
+    <ClInclude Include="Scripting\Scripting.h" />
+    <ClInclude Include="Scripting\ScriptingEnums.h" />
+    <ClInclude Include="Scripting\ScriptingHelpers.h" />
+    <ClInclude Include="Scripting\ScriptingTypes.h" />
+    <ClInclude Include="Scripting\Types.h" />
+    <ClInclude Include="SkyDome.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{2e63c6f7-6698-4746-b806-54ad8d3c7b67}</ProjectGuid>
+    <RootNamespace>IVSDK</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(DXSDK_DIR)\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)\Lib\x86;$(LibraryPath)</LibraryPath>
+    <TargetName>$(ProjectName)_dbg</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(DXSDK_DIR)\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)\Lib\x86;$(LibraryPath)</LibraryPath>
+    <TargetName>$(ProjectName)_rel</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;IVSDK_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;IVSDK_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

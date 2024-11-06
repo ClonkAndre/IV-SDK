@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\scripting">
+      <UniqueIdentifier>{55eeddeb-4366-4a68-9292-8bed3880996a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\injector">
+      <UniqueIdentifier>{9aa2f473-b14a-4914-bdd5-6b5bcaaf596d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\injector\gvm">
+      <UniqueIdentifier>{0567267c-1ef7-4199-91b5-979ebdfd70db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GTAIV">
+      <UniqueIdentifier>{af2752b4-7962-49da-a600-ea25f057b41d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\enums">
+      <UniqueIdentifier>{1d07709f-3b87-4f01-88c3-e69ce33bf9ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\patterns">
+      <UniqueIdentifier>{fb735078-c596-4285-8d72-2f8ed07e3fff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\patterns">
+      <UniqueIdentifier>{a8e2b6c2-71a2-4dc8-ba36-d37195b99038}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="IVSDK.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="patterns\Hooking.Patterns.cpp">
+      <Filter>Source Files\patterns</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Hooks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IVSDK.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AddressSetter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripting\BaseScripting.h">
+      <Filter>Header Files\scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripting\NativeHashes.h">
+      <Filter>Header Files\scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripting\NativeInvoke.h">
+      <Filter>Header Files\scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripting\Scripting.h">
+      <Filter>Header Files\scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripting\ScriptingEnums.h">
+      <Filter>Header Files\scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripting\ScriptingHelpers.h">
+      <Filter>Header Files\scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripting\ScriptingTypes.h">
+      <Filter>Header Files\scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripting\Types.h">
+      <Filter>Header Files\scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="injector\assembly.hpp">
+      <Filter>Header Files\injector</Filter>
+    </ClInclude>
+    <ClInclude Include="injector\calling.hpp">
+      <Filter>Header Files\injector</Filter>
+    </ClInclude>
+    <ClInclude Include="injector\hooking.hpp">
+      <Filter>Header Files\injector</Filter>
+    </ClInclude>
+    <ClInclude Include="injector\injector.hpp">
+      <Filter>Header Files\injector</Filter>
+    </ClInclude>
+    <ClInclude Include="injector\utility.hpp">
+      <Filter>Header Files\injector</Filter>
+    </ClInclude>
+    <ClInclude Include="injector\gvm\gvm.hpp">
+      <Filter>Header Files\injector\gvm</Filter>
+    </ClInclude>
+    <ClInclude Include="injector\gvm\translator.hpp">
+      <Filter>Header Files\injector\gvm</Filter>
+    </ClInclude>
+    <ClInclude Include="C_PcSave.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CAchievements.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CAERadioTrackManager.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimManager.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CAudioZones.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseDC.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CBuilding.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CCam.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CCamera.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CCheat.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CClock.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CCustomShaderEffectBase.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CCutsceneMgr.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CDraw.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CDrawCurvedWindowDC.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CDrawRadioHudTextDC.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CDrawRectDC.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CDrawSpriteDC.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CDrawSpriteUVDC.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CdStream.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CDynamicEntity.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CEntity.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CExplosion.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CFileLoader.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CFileMgr.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CFont.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CFrontEnd.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CGame.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameConfigReader.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameLogic.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CGangs.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CGarage.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CGenericGameStorage.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="cHandlingDataMgr.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CHudColours.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CInteriorInst.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CIplStore.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CMatrix.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CMenuManager.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CModelInfo.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CNetwork.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CPad.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CPed.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CPedFactoryNY.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CPedType.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CPhysical.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CPickups.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerInfo.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CPool.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CPools.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CPopulation.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CProjectileInfo.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CQuadTreeNode.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CQuaternion.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CRadar.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CRect.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CRenderPhase.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CReplay.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CRestart.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CRGBA.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CShaderLib.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CShadows.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CSimpleTransform.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CSprite2d.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CStats.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CStore.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CStreaming.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CStuntJumpManager.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CTask.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CTaskComplexClimbLadder.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CTaskComplexDie.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CTaskComplexInWater.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CTaskComplexMobileMakeCall.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CTaskComplexNewGetInVehicle.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CTaskComplexNM.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CTaskComplexPlayerOnFoot.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CTaskComplexPlayerSettingsTask.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CTaskComplexWander.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CTaskSimpleNMHighFall.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CTaskSimpleNMJumpRollFromRoadVehicle.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CTaskSimpleSidewaysDive.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CText.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CTheScripts.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CTheZones.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CTimeCycle.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CTimer.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CTxdStore.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CVector.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CVector2D.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CVehicle.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CVehicleFactoryNY.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CVisibilityPlugins.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CWanted.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CWeaponInfo.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CWeather.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="CWorld.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="audEngine.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="audRadioAudioEntity.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="eHudColour.h">
+      <Filter>Header Files\enums</Filter>
+    </ClInclude>
+    <ClInclude Include="ePadControls.h">
+      <Filter>Header Files\enums</Filter>
+    </ClInclude>
+    <ClInclude Include="eRadarSprite.h">
+      <Filter>Header Files\enums</Filter>
+    </ClInclude>
+    <ClInclude Include="eVehiclePart.h">
+      <Filter>Header Files\enums</Filter>
+    </ClInclude>
+    <ClInclude Include="pgDictionary.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="phBound.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="grcTexture.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="grcTextureFactory.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="fiDevice.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="fiPackfile.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="phConstrainedCollider.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="phInstGta.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="rage.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyDome.h">
+      <Filter>Header Files\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="patterns\Hooking.Patterns.h">
+      <Filter>Header Files\patterns</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
